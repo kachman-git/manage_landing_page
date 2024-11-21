@@ -9,11 +9,11 @@ const Footer = () => {
   return (
     <footer className="text-white bg-black/80">
       <div className="container flex flex-col items-center justify-between w-full gap-6 px-4 py-12 mx-auto md:items-start md:flex-row ">
-        <div className="flex gap-4 md:hidden">
+        <div className="flex flex-col w-full gap-4 md:hidden">
           <input
             type="text"
             placeholder="Updated in your inbox"
-            className="px-4 py-2 rounded-full"
+            className="px-4 py-2 rounded-full placeholder:text-center"
           />
           <button className="btn">Go</button>
         </div>
